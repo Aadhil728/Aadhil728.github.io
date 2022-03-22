@@ -1,84 +1,119 @@
-      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&display=swap");
 
-      body {
-        font-family: "Poppins", sans-serif;
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        width: 100%;
-      }
-      section {
-        min-height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  width: 100%;
+}
+section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-      /* ------------------navbar-------------*/
-      #navbar {
-        position: sticky;
-        top: 0;
-        background: white;
-        z-index: 10;
-      }
-      .bold {
-        font-size: 25px;
-      }
+/* ------------------navbar-------------*/
+#navbar {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  background: rgb(0, 0, 0, 0.6) !important;
+  padding: 10px 0;
+}
+.bold {
+  font-size: 25px;
+  margin-left: 10px;
+  font-weight: 700;
+}
 
-      li {
-        padding: 5px;
-      }
+li {
+  padding: 5px;
+}
 
-      .nav-link {
-        font-size: 15px;
-        font-weight: bold;
-        border: 2px solid transparent;
-      }
+.nav-link {
+  font-size: 15px;
+  font-weight: bold;
+  border: 2px solid transparent;
+  color: white !important;
+}
 
-      .nav-link:hover {
-        border-bottom: 2px solid blue;
-        transition: 0.1s;
-      }
+.nav-link:hover {
+  border-bottom: 2px solid blue;
+  transition: 0.1s;
+}
 
-      /*--------------------home-------------*/
-      span {
-        color: blue;
-        font-weight: bold;
-      }
+/*--------------------home-------------*/
+span {
+  color: blue;
+  font-weight: bold;
+}
 
-      p {
-        font-size: 18px;
-      }
+p {
+  font-size: 18px;
+}
 
-      /*---------------About----------------*/
-      #about img {
-        width: 25rem;
-        height: 25rem;
-        border-radius: 50px;
-      }
+.background {
+  width: 100%;
+}
 
-      h6 {
-        font-size: 50px;
-      }
+.background img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.heading_content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  max-width: 100%;
+}
 
-      /*---------------Services----------------*/
-      .card img {
-        height: 250px;
-      }
+.heading_content h5 {
+  font-size: 3em;
+  font-weight: 300;
+  color: white;
+  font-family: monospace;
+}
 
-      .inner {
-        overflow: hidden;
-      }
+.heading_content h1 {
+  font-size: 4em;
+  font-weight: bolder;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
 
-      .card img:hover {
-        transform: scale(1.5);
-        transition: 0.5s;
-        cursor: pointer;
-      }
+/*---------------About----------------*/
+#about img {
+  width: 25rem;
+  height: 25rem;
+  border-radius: 50px;
+}
 
-      /*---------------Contact----------------*/
-      form {
-        padding: 40px;
-        box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.2);
-        border-radius: 30px;
-      }
+h6 {
+  font-size: 50px;
+}
+
+/*---------------Services----------------*/
+.card img {
+  height: 250px;
+}
+
+.inner {
+  overflow: hidden;
+}
+
+.card img:hover {
+  transform: scale(1.5);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+/*---------------Contact----------------*/
+form {
+  padding: 40px;
+  box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.2);
+  border-radius: 30px;
+}
